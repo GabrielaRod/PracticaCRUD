@@ -132,7 +132,7 @@ public class Main {
             Student student = students.get(Integer.parseInt(posicion));
 
             Map<String, Object> attributes = new HashMap<>();
-            attributes.put("students", student);
+            attributes.put("student", student);
 
             return new ModelAndView(attributes, "view.ftl");
         }, freeMarkerEngine);

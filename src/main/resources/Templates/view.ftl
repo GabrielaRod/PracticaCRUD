@@ -70,7 +70,7 @@
     <!-- /#page-content-wrapper -->
 
         <div>
-
+            <br>
             </br></br>
             <label for="matricula"> <span class="font-weight-bold">Matricula: </span> ${student.matricula?string["0"]}</label>
             </br>
