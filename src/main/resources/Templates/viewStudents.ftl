@@ -57,9 +57,9 @@
                         <a href="#menu-toggle"  style="text-decoration: none" class="fas fa-bars" id="menu-toggle"></a>
 
 
-                        <h3 id="titulo">Cantidad de estudiantes registrados ${cantEstudiantes}</h3>
+                        <h3 id="titulo">Cantidad de Estudiantes Registrados ${countStudents}</h3>
 
-                        <a href="/generar" class="btn btn">Generar</a>
+                        <a href="/generate" class="btn btn">Generar</a>
 
                     </div>
 
@@ -84,18 +84,18 @@
                     </thead>
                     <tbody>
                         <#assign x = 0>
-                        <#list Students as Student>
+                        <#list students as student>
                             <tr>
 
-                                <td>${Student.matricula?string["0"]}</td>
-                                <td>${Student.nombre}</td>
-                                <td>${Student.apellido}</td>
-                                <td>${Student.telefono}</td>
+                                <td>${student.matricula?string["0"]}</td>
+                                <td>${student.nombre}</td>
+                                <td>${student.apellido}</td>
+                                <td>${student.telefono}</td>
 
 
                                 <td><a href="/delete/${x}"   class="btn"><i class="far fa-trash-alt"></i></a></td>
                                 <td><a href="/edit/${x}" class="btn"><i class="fas fa-pencil-alt"></i></a></td>
-                                <td><a href="/view/${x}" class="btn"><i class="fas fa-eye"></i></a></td>
+                                <td><a href="view/${x}" class="btn"><i class="fas fa-eye"></i></a></td>
 
                             </tr>
                         <#assign x++>

@@ -81,13 +81,13 @@
                     </thead>
                     <tbody>
                         <#assign x = 0>
-                        <#list Students as Student>
+                        <#list students as student>
                             <tr>
 
-                                <td>${Student.matricula?string["0"]}</td>
-                                <td>${Student.nombre}</td>
-                                <td>${Student.apellido}</td>
-                                <td>${Student.telefono}</td>
+                                <td>${student.matricula?string["0"]}</td>
+                                <td>${student.nombre}</td>
+                                <td>${student.apellido}</td>
+                                <td>${student.telefono}</td>
 
                                 <td><a href="/delete/${x}"   class="btn"><i class="far fa-trash-alt"></i></a></td>
                                 <td><a href="/edit/${x}" class="btn"><i class="fas fa-pencil-alt"></i></a></td>

@@ -77,7 +77,7 @@
                     <input type="text" class="form-control" placeholder="Introduce el Apellido" name="apellido"  required>
                 </div>
                 <div class="form-group">
-                    <label for="telefono">Teléfono</label>
+                    <label for="telefono">Telefono</label>
                     <input type="text" class="form-control" placeholder="Introduce el Telefono" name="telefono" required>
                 </div>
 

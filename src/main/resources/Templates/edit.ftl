@@ -30,17 +30,17 @@
         <ul class="sidebar-nav">
             <li class="sidebar-brand">
                 <a href="#">
-                    Practica 2
+                    Practica CRUD
                 </a>
             </li>
             <li>
                 <a href="/">Inicio</a>
             </li>
             <li>
-                <a href="/agregarEstudiantes">Agregar estudiante</a>
+                <a href="/addStudent">Agregar Estudiante</a>
             </li>
             <li>
-                <a href="/verEstudiantes">Ver estudiantes</a>
+                <a href="/viewStudents">Ver Estudiantes</a>
             </li>
         </ul>
     </div>
@@ -55,7 +55,7 @@
 
                     <a href="#menu-toggle"  style="text-decoration: none" class="fas fa-bars" id="menu-toggle"></a>
 
-                    <h1 id="titulo">Editar estudiante</h1>
+                    <h1 id="titulo">Editar Estudiante</h1>
 
                 </div>
             </div>
@@ -75,19 +75,19 @@
         <div class="form-group">
             </br></br>
             <label style="float: left" for="matricula">Matricula</label>
-            <input type="number" class="form-control" placeholder="Introduce la matricula"  name="matricula" value="${estudiante.matricula?string["0"]}" required>
+            <input type="number" class="form-control" placeholder="Introduce la matricula"  name="matricula" value="${student.matricula?string["0"]}" required>
         </div>
         <div class="form-group">
             <label for="nombre">Nombre</label>
-            <input type="text" class="form-control" placeholder="Introduce el nombre"  name="nombre" value="${estudiante.nombre}" required>
+            <input type="text" class="form-control" placeholder="Introduce el nombre"  name="nombre" value="${student.nombre}" required>
         </div>
         <div class="form-group">
             <label for="apellido">Apellido</label>
-            <input type="text" class="form-control" placeholder="Introduce el apellido" name="apellido" value="${estudiante.apellido}" required>
+            <input type="text" class="form-control" placeholder="Introduce el apellido" name="apellido" value="${student.apellido}" required>
         </div>
         <div class="form-group">
             <label for="telefono">Teléfono</label>
-            <input type="text" class="form-control" placeholder="Introduce el telefono" name="telefono" value="${estudiante.telefono}" required>
+            <input type="text" class="form-control" placeholder="Introduce el telefono" name="telefono" value="${student.telefono}" required>
         </div>
 
 

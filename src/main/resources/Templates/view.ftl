@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Inicio - Practica 2 Crud</title>
+    <title>Inicio - Practica CRUD</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,7 +30,7 @@
         <ul class="sidebar-nav">
             <li class="sidebar-brand">
                 <a href="#">
-                    Practica 2
+                    Practica CRUD
                 </a>
             </li>
             <li>
@@ -72,13 +72,13 @@
         <div>
 
             </br></br>
-            <label for="matricula"> <span class="font-weight-bold">Matricula: </span> ${estudiante.matricula?string["0"]}</label>
+            <label for="matricula"> <span class="font-weight-bold">Matricula: </span> ${student.matricula?string["0"]}</label>
             </br>
-            <label for="nombre"> <span class="font-weight-bold">Nombre: </span>${estudiante.nombre}</label>
+            <label for="nombre"> <span class="font-weight-bold">Nombre: </span>${student.nombre}</label>
             </br>
-            <label for="apellido"> <span class="font-weight-bold">Apellido: </span>${estudiante.apellido}</label>
+            <label for="apellido"> <span class="font-weight-bold">Apellido: </span>${student.apellido}</label>
             </br>
-            <label for="telefono"> <span class="font-weight-bold">Telefono: </span>${estudiante.telefono}</label>
+            <label for="telefono"> <span class="font-weight-bold">Telefono: </span>${student.telefono}</label>
             </br>
         </div>
 
